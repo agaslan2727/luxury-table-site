@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <title>Luxury Tables</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1>Explore Our Signature Tables</h1>
+        <div class="product">
+            <img src="images/empire.jpg" alt="Empire Table">
+            <h2>Empire Cash Glow Table</h2>
+            <p>$750</p>
+            <button onclick="purchase('Empire Cash Glow Table', 750)">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="images/golden.jpg" alt="Golden Vault">
+            <h2>Golden Vault Elegance</h2>
+            <p>$1250</p>
+            <button onclick="purchase('Golden Vault Elegance', 1250)">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="images/crystal.jpg" alt="Crystal Luxe">
+            <h2>Crystal Luxe Chamber</h2>
+            <p>$1000</p>
+            <button onclick="purchase('Crystal Luxe Chamber', 1000)">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="images/shadow.jpg" alt="ShadowSafe Noir">
+            <h2>ShadowSafe Noir Edition</h2>
+            <p>$1250</p>
+            <button onclick="purchase('ShadowSafe Noir Edition', 1250)">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="images/prestige.jpg" alt="Prestige Legacy">
+            <h2>Prestige Legacy Showcase</h2>
+            <p>$1500</p>
+            <button onclick="purchase('Prestige Legacy Showcase', 1500)">Buy Now</button>
+        </div>
+        <form id="payment-form" action="thankyou.html" method="GET">
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </div>
+
+<div id="image-popup">
+    <img src="" alt="Zoomed Image">
+</div>
+
+
+<!-- WhatsApp Chat Button -->
+<a href="https://wa.me/16095093068?text=Hello%2C%20I%20am%20interested%20in%20your%20tables" target="_blank"
+   style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:10px 15px;border-radius:50px;text-decoration:none;font-weight:bold;z-index:999;">
+    WhatsApp
+</a>
+
+
+<div id="image-popup">
+    <img src="" alt="Zoomed Image">
+</div>
+
+</body>
+</html>
